@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+AppMobile/node_modules/
+
+# Expo
+.expo/
+AppMobile/.expo/
+AppMobile/.vscode/
+
+# IntelliJ / VS Code
+.idea/
+.vscode/launch.json
+
+# Maven / Backend
+Backend/target/
+Backend/backend_err.txt
+Backend/backend_log.txt
+Backend/cmd_run_log.txt
+Backend/compile_log.txt
+Backend/compile_output.txt
+Backend/maven_version.txt
+Backend/run_direct_log.txt
+Backend/run_log.txt
+Backend/start_log.txt
+Backend/test_ver.txt
+Backend/out.txt
+
+# Log files
+*.log
