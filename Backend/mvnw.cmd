@@ -27,6 +27,8 @@
 @REM   MVNW_VERBOSE - true: enable verbose log; others: silence the output
 @REM ----------------------------------------------------------------------------
 
+@SET "JAVA_HOME=C:\Program Files\Java\jdk-21"
+@SET "Path=C:\Program Files\Java\jdk-21\bin;%Path%"
 @IF "%__MVNW_ARG0_NAME__%"=="" (SET __MVNW_ARG0_NAME__=%~nx0)
 @SET __MVNW_CMD__=
 @SET __MVNW_ERROR__=
@@ -44,6 +46,9 @@
 @echo Cannot start maven from wrapper >&2 && exit /b 1
 @GOTO :EOF
 : end batch / begin powershell #>
+
+$env:JAVA_HOME = "C:\Program Files\Java\jdk-21"
+$env:Path = "C:\Program Files\Java\jdk-21\bin;" + $env:Path
 
 $ErrorActionPreference = "Stop"
 if ($env:MVNW_VERBOSE -eq "true") {

@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "PhoneHubApiApplication",
+            "request": "launch",
+            "mainClass": "com.phonehub.api.PhoneHubApiApplication",
+            "projectName": "api",
+            "workingDirectory": "${workspaceFolder}/Backend"
+        }
+    ]
+}
